@@ -5,12 +5,12 @@ We build and compare several CNN architectures by training and testing them on F
 
 ------------------------------------------------------------------------
 
-| Model  | Train Set Acc. | Test Set Acc. | Run Time/Epoch |
-| ------------- | ------------- | ------------- | ------------- |
-| Shallow Net  | 97.6% | 92.5% | 40s |
-| Shallow Net (aug) | 94.9% | 92.6% | 60s |
-| LeNet5 | 96.3% | 91.1% | 30s |
-| Slow Net | 93.9% | 93% | 570s |
+| Model  | Train Set Acc. | Test Set Acc. | Run Time/Epoch | No. of Parameters | 
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| Shallow Net  | 97.6% | 92.5% | 40s | 413,802 |
+| Shallow Net (aug) | 94.9% | 92.6% | 60s | 413,802 |
+| LeNet5 | 96.3% | 91.1% | 30s | 107,786 |
+| Slow Net | 93.9% | 93% | 570s | 7,742,410 |
 
 --------------------------------------------------------------------
 
